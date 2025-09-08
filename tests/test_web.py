@@ -7,6 +7,9 @@ from src.inference import InferenceService
 from web.app import app
 
 
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 @pytest.fixture(scope="module")
 def client():
     app.testing = True
