@@ -3,7 +3,7 @@ import json
 import numpy as np
 import pandas as pd
 import pytest
-from src.inference import InferenceService
+from dbtechlab.inference import InferenceService
 from web.app import app
 
 
