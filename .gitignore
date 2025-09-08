@@ -37,6 +37,6 @@ __pycache__/
 .dvc/tmp/
 .dvc/cache/
 
-
+dvcstore/
 secrets/
 .dvc/config.local
