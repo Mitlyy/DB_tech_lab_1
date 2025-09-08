@@ -3,7 +3,7 @@ import os
 import numpy as np
 import pandas as pd
 import pytest
-from src.inference import InferenceService
+from dbtechlab.inference import InferenceService
 
 import sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
