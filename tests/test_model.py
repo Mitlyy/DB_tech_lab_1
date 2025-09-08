@@ -5,6 +5,9 @@ import pandas as pd
 import pytest
 from src.inference import InferenceService
 
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 
 @pytest.fixture(scope="module")
 def infer():
