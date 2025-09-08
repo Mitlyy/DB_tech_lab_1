@@ -25,6 +25,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt || true
           pip install "dvc>=3.0.0" dvc-gdrive jq\
+      - name: pip pip
+        run: |
+          pip install -e .
           
 
       - name: Write Service Account JSON from secret
